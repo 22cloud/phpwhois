@@ -1,20 +1,19 @@
 {
     "name": "dohub/phpwhois",
-    "description": "Whois client.",
-    "keywords": ["whois"],
-    "version": "1.0.0",
-    "license": "MIT",
+    "description": "whois",
+    "type": "library",
+    "license": "Mit",
     "authors": [
         {
             "name": "22cloud",
-            "email": "dohub@outlook.com",
+            "email": "dohub@outlook.com"
         }
     ],
-    "require": {
-        "php": ">=5.3.2",
-        "ext-curl": "*"
-    },
+    "minimum-stability": "dev",
+    "require": {},
     "autoload": {
-        "psr-4": { "Dohub\\Whois": "src" }
+        "psr-4": {
+            "phpwhois\\": "src/"
+        }
     }
 }
